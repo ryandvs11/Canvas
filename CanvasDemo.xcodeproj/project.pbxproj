@@ -14,6 +14,7 @@
 		9D2AFA9F21765D4400B33056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2AFA9D21765D4400B33056 /* LaunchScreen.storyboard */; };
 		9D2AFAAA21765D4400B33056 /* CanvasDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2AFAA921765D4400B33056 /* CanvasDemoTests.swift */; };
 		9D2AFAB521765D4400B33056 /* CanvasDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2AFAB421765D4400B33056 /* CanvasDemoUITests.swift */; };
+		9D2AFAC321765FA000B33056 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2AFAC221765FA000B33056 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9D2AFAB021765D4400B33056 /* CanvasDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2AFAB421765D4400B33056 /* CanvasDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasDemoUITests.swift; sourceTree = "<group>"; };
 		9D2AFAB621765D4400B33056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2AFAC221765FA000B33056 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9D2AFA9421765D3D00B33056 /* AppDelegate.swift */,
 				9D2AFA9621765D3D00B33056 /* ViewController.swift */,
 				9D2AFA9821765D3D00B33056 /* Main.storyboard */,
+				9D2AFAC221765FA000B33056 /* CanvasViewController.swift */,
 				9D2AFA9B21765D4400B33056 /* Assets.xcassets */,
 				9D2AFA9D21765D4400B33056 /* LaunchScreen.storyboard */,
 				9D2AFAA021765D4400B33056 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D2AFA9721765D3D00B33056 /* ViewController.swift in Sources */,
+				9D2AFAC321765FA000B33056 /* CanvasViewController.swift in Sources */,
 				9D2AFA9521765D3D00B33056 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T9542432B;
 				INFOPLIST_FILE = CanvasDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T9542432B;
 				INFOPLIST_FILE = CanvasDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
