@@ -1,4 +1,4 @@
-# Lab 7 - *Name of App Here*
+# Lab 7 - *Canvas*
 
 **Name of your app** is an app that allows users to use gestures in order to create fun pictures using a variety of images.
 
@@ -8,11 +8,11 @@ Time spent: **2** hours spent in total
 
 The following **required** user stories are complete:
 
-- [x ] Add and Configure View Elements (+1pt)
-- [x ] User can use a pan gesture to move the position of the tray (+1pt)
-- [x ] The tray will continue to the up or down position based on the direction the user was last panning (+1pt)
-- [x ] User can use a pan gesture to drag faces from the image tray to the canvas (+1pt)
-- [x ] User can pan faces on the canvas (+1pt)
+- [x] Add and Configure View Elements (+1pt)
+- [x] User can use a pan gesture to move the position of the tray (+1pt)
+- [x] The tray will continue to the up or down position based on the direction the user was last panning (+1pt)
+- [x] User can use a pan gesture to drag faces from the image tray to the canvas (+1pt)
+- [x] User can pan faces on the canvas (+1pt)
 
 The following **stretch** user stories are implemented:
 
